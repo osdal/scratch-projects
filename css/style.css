@@ -12,3 +12,19 @@
 .block_file {
     width: auto;
 }
+.background-pic {
+    background-image: url(/img/bgr.png);
+    /*background-color: bisque;*/
+}
+
+body {
+    
+}
+
+ul.main-menu li>a {
+    font-family: cursive;
+    font-size: 1.5em;
+    font-style: oblique;
+    color: #c12565;
+    background-color: cornflowerblue;
+}
