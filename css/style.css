@@ -15,9 +15,6 @@
     padding: 20px;
 }
 
-body {
-    
-}
 
 ul.main-menu li>a {
     font-family: cursive;
@@ -105,4 +102,42 @@ h2>a{
 .catalog-width{
     width: 50%;
 }
-
+.gallery img{
+    border: 110px solid #f45875;
+}
+.gallery img:hover{
+    border-style: none;
+    padding: 110px;
+}
+.register input[type="text"]{
+    width: 500px;
+}
+.register input[type="password"]{
+    width: 350px;
+}
+.register input[type="email"]:focus{
+    width: 500px;
+    color: darkgreen;
+    background-color: khaki;
+}
+.register input[type="submit"]:focus{
+    background-color: #c69854;
+}
+.register input[type="reset"]:focus{
+    background-color: #f69854;
+}
+.border-chekbox{
+    padding: 4px;
+}
+.border-chekbox:hover{
+    border: 4px dotted black;
+    padding: 0px;
+}
+body {
+    background-image: url(/img/address_book.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.name{
+    text-transform: capitalize;
+}
