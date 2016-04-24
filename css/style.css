@@ -10,17 +10,12 @@
     width: auto;
 }
 .background-pic {
-    background-image: url(/img/bgr.png);
+    background-image: url(/img/address_book.png);
     /*background-color: bisque;*/
-    padding: 20px;
+    /*padding: 20px;*/
 }
 
-<<<<<<< HEAD
-body {
-    
-}
-=======
->>>>>>> origin/work_branch
+
 
 ul.main-menu li>a {
     font-family: cursive;
@@ -66,12 +61,10 @@ h2>a{
 .live-flowers{
     list-style-image: url(/img/pollen_flower.png);
 }
-<<<<<<< HEAD
-=======
+
 .live-flowers:after{
     content: url(/img/label_new_red.png);
 }
->>>>>>> origin/work_branch
 
 .synthetic-flowers{
     list-style-image: url(/img/flowers_syntetic.png);
@@ -85,12 +78,11 @@ h2>a{
 .constructor{
     list-style-image: url(/img/technology.png);
 }
-<<<<<<< HEAD
-=======
+
 .constructor:after{
     content: url(/img/label_new_red.png);
 }
->>>>>>> origin/work_branch
+
     
 .books{
     list-style-image: url(/img/folder_home2.png);
@@ -98,12 +90,11 @@ h2>a{
 .audio-books{
     list-style-image: url(/img/folder_audio_book.png);
 }
-<<<<<<< HEAD
-=======
+
 .audio-books:after{
     content: url(/img/label_new_red.png);
 }
->>>>>>> origin/work_branch
+
 .soft-books{
     list-style-image: url(/img/address_book.png);
 }
@@ -117,9 +108,7 @@ h2>a{
 .catalog-width{
     width: 50%;
 }
-<<<<<<< HEAD
 
-=======
 .gallery img{
     border: 110px solid #f45875;
 }
@@ -159,4 +148,3 @@ body {
 .name{
     text-transform: capitalize;
 }
->>>>>>> origin/work_branch
