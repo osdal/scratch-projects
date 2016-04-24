@@ -15,22 +15,22 @@
 <div class="full">
     <div class="wrapper">
     
-    <form  action="register.php">
+    <form class="register" >
         <fieldset>
             <legend>Личные данные</legend>
                 <label>
                     <span>Фамилия&#42;</span><br>
-                <input type="text" size="50">
+                <input class="name" type="text" size="50">
                 </label> 
                 <p>
                 <label>
                     <span>Имя&#42;</span><br>
-                <input type="text" size="50">
+                <input class="name" type="text" size="50">
                 </label> 
                 </p>
                 <label>
                     <span>Отчество&#42;</span><br>
-                <input type="text" size="50">
+                <input class="name" type="text" size="50">
                 </label> 
         </fieldset>
         <fieldset>
@@ -60,10 +60,14 @@
            
             
                 <p>Выберите пол&nbsp;</p>
-             
-                <p><input type="radio" name="sex" value="male">Мужской</p>
+             <div class="border-chekbox">
+                <p><input  type="radio" name="sex" value="male">Мужской</p>
+            </div>
+            <div class="border-chekbox">
+            <label >
                 <p><input type="radio" name="sex" value="female">Женский</p>
-                
+            </label>
+            </div>
                 <p>Выберите дату рождения&nbsp;</p>
                 <span>День<select name="birthday">
                     <option>1</option>
@@ -85,12 +89,17 @@
                     <option>2002</option>
                             </select>    
                 </span>
-            <p>Какие блюда предпочитаете?</p>    
+            <p>Какие блюда предпочитаете?</p>
+            <div class="border-chekbox">
         <p><input type="checkbox" name="option1" value="a1" checked>Борщ<Br>
            <input type="checkbox" name="option2" value="a2">Каша<Br>
            <input type="checkbox" name="option3" value="a3">Винегрет<Br> 
            <input type="checkbox" name="option4" value="a4">Сало<Br> 
            <input type="checkbox" name="option5" value="a5">Хлеб</p>
+<<<<<<< HEAD
+=======
+            </div>
+>>>>>>> origin/work_branch
         <span><input type="submit" value="Отправить"></span>&nbsp;&nbsp;
         <span><input type="reset" value="Сбросить"></span>    
         
