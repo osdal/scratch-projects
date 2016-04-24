@@ -1,0 +1,162 @@
+.full {
+    width: 100%;
+}
+
+.wrapper {
+    width: 50%;
+}
+
+.block_file {
+    width: auto;
+}
+.background-pic {
+    background-image: url(/img/bgr.png);
+    /*background-color: bisque;*/
+    padding: 20px;
+}
+
+<<<<<<< HEAD
+body {
+    
+}
+=======
+>>>>>>> origin/work_branch
+
+ul.main-menu li>a {
+    font-family: cursive;
+    font-size: 1.5em;
+    font-style: oblique;
+    color: #c12565;
+    background-color: cornflowerblue;
+}
+
+h2>a{
+    color: #F4731C;
+    font-family: Verdana, serif;
+    text-decoration: none;
+    border-bottom: 5px dotted #AD00FD;
+}
+.short-article{
+    background-color: #a45878;
+}
+
+.read-more:hover{
+    text-decoration: none;
+    color: #8FC462;
+}
+.comments{
+    color: gray;
+}
+
+.article-name{
+    text-align: center;
+    }
+
+.content-article p:first-letter{
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Verdana, cursive;
+    font-weight: bold;
+}
+
+.flowers{
+    list-style-image: url(/img/flowers32x32.png);
+}
+.live-flowers{
+    list-style-image: url(/img/pollen_flower.png);
+}
+<<<<<<< HEAD
+=======
+.live-flowers:after{
+    content: url(/img/label_new_red.png);
+}
+>>>>>>> origin/work_branch
+
+.synthetic-flowers{
+    list-style-image: url(/img/flowers_syntetic.png);
+}
+.toys{
+    list-style-image: url(/img/package_toys.png);
+}
+.soft-toys{
+    list-style-image: url(/img/toy_soft.png);
+}
+.constructor{
+    list-style-image: url(/img/technology.png);
+}
+<<<<<<< HEAD
+=======
+.constructor:after{
+    content: url(/img/label_new_red.png);
+}
+>>>>>>> origin/work_branch
+    
+.books{
+    list-style-image: url(/img/folder_home2.png);
+}
+.audio-books{
+    list-style-image: url(/img/folder_audio_book.png);
+}
+<<<<<<< HEAD
+=======
+.audio-books:after{
+    content: url(/img/label_new_red.png);
+}
+>>>>>>> origin/work_branch
+.soft-books{
+    list-style-image: url(/img/address_book.png);
+}
+.catalog-menu>li{
+    font-size: 2em;
+    background-color: bisque;
+}
+.catalog-menu>ul{
+    background-color: burlywood;
+}
+.catalog-width{
+    width: 50%;
+}
+<<<<<<< HEAD
+
+=======
+.gallery img{
+    border: 110px solid #f45875;
+}
+.gallery img:hover{
+    border-style: none;
+    padding: 110px;
+}
+.register input[type="text"]{
+    width: 500px;
+}
+.register input[type="password"]{
+    width: 350px;
+}
+.register input[type="email"]:focus{
+    width: 500px;
+    color: darkgreen;
+    background-color: khaki;
+}
+.register input[type="submit"]:focus{
+    background-color: #c69854;
+}
+.register input[type="reset"]:focus{
+    background-color: #f69854;
+}
+.border-chekbox{
+    padding: 4px;
+}
+.border-chekbox:hover{
+    border: 4px dotted black;
+    padding: 0px;
+}
+body {
+    background-image: url(/img/address_book.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.name{
+    text-transform: capitalize;
+}
+>>>>>>> origin/work_branch
