@@ -166,9 +166,12 @@ td {
 width: 10%;
  height: 100%; 
 /* margin: 30px; */
-padding:30px;
+padding:10px;
 }
 .table-inner td{
     min-width: 200px;
-    max-height: 1px%;
+    
+}
+.table-inner tr{
+    max-height: 10%;
 }
