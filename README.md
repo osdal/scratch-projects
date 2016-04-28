@@ -1,2 +1,0 @@
-# htmlcss
-learning project
