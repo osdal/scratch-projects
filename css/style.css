@@ -150,7 +150,6 @@ body {
 }
 
 table {
-    text-align: center;
     border: 1px solid black;
     border-collapse: collapse;
     width: 1000px;
@@ -175,10 +174,4 @@ padding:10px;
 }
 .table-inner tr{
     max-height: 10%;
-}
-.table-register{
-    width: 55%;
-}
-.col1{
-    width: 100%;
 }
