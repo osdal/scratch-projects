@@ -160,15 +160,10 @@ table {
 
 td {
     border: 1px solid black;
-    min-width: 300px;
 }
 .table-inner{
-width: 10%;
- height: 100%; 
-/* margin: 30px; */
-padding:30px;
-}
-.table-inner td{
-    min-width: 200px;
-    max-height: 1px%;
+width: auto;
+height: auto;
+
+
 }
